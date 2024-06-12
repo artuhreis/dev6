@@ -18,13 +18,13 @@ while not anoNascimento:
         anoNascimento = int(input())
     
         if anoNascimento < 1922 or anoNascimento > 2021 and anoNascimento :
-            print("Ano de Nascimento Invalido! Por favor Digite um ano entre 1922 a 2021!")
+            print("Ano de Nascimento Inválido! Por favor, digite um ano entre 1922 a 2021!")
             anoNascimento = False
         else:
             anoNascimento = anoNascimento
 
     except ValueError:
-        print("Ano de Nascimento Invalido! Por favor Digite um ano entre 1922 a 2021!")
+        print("Ano de Nascimento Inválido! Por favor, digite um ano entre 1922 a 2021!")
 
 # Teste e devolução para o usuario. 
 idade = calculoIdade(anoAtual,anoNascimento)
